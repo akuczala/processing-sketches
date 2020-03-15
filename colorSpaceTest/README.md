@@ -7,7 +7,7 @@ This Processing sketch serves as a kind of colorblindness test, which attempts t
 Includes data from four participants. Independently of the results, we know the following about the participants:
 - "Mario" likely has Protanopia or Deuteranopia
 - "Luigi" likely has Protanomaly or Deuteranomaly
-- "Peach" likely has normal color vision.
+- "Peach" - unknown 
 - "Toad" has normal color vision.
 
 The clearest result from this test was that colorblindness was strongly correlated with the amount of frustration expressed during the test.
