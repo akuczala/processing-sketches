@@ -1,5 +1,3 @@
 # colorSpaceTest
 
-![alt text](screenshot)
-
-[screenshot]: https://github.com/akuczala/processing-sketches/drawNetwork/color-screenshot.png "screenshot"
+<img src="https://raw.githubusercontent.com/akuczala/processing-sketches/master/clorSpaceTest/color-screenshot.png" width="400">

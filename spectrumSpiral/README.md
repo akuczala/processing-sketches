@@ -1,6 +1,6 @@
 # spectrumSpiral
 
-![alt text](screenshot)
+<img src="https://raw.githubusercontent.com/akuczala/processing-sketches/master/spectrumSpiral/spiral-screenshot.png" width="400">
 
 Visualization of the acoustic spectrum mapped to a spiral that makes one turn per octave. This reveals interesting harmonic features in music.
 
@@ -16,5 +16,3 @@ Includes example audio files.
 - <kbd>L</kbd> Load audio file
 
 Clicking the mouse anywhere between the left and right edges of the window will seek the audio file proportionally.
-
-[screenshot]: https://github.com/akuczala/processing-sketches/spectrumSpiral/spiral-screenshot.png "screenshot"

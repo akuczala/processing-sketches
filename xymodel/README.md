@@ -1,6 +1,6 @@
 # xymodel
 
-![screenshot](screenshot1) ![screenshot](screenshot2)
+<img src="https://raw.githubusercontent.com/akuczala/processing-sketches/master/xymodel/xy-screenshot.png" width="400"> <img src="https://raw.githubusercontent.com/akuczala/processing-sketches/master/xymodel/vortex-screenshot.png" width="400">
 
 Simulation of the [classical XY model](https://en.wikipedia.org/wiki/Classical_XY_model) on a square lattice. Witness the [Kosterlitz-Thouless transition](https://en.wikipedia.org/wiki/Kosterlitz–Thouless_transition)! Has a thermal (Monte Carlo) mode, and a deterministic mode. The rotor angle is displayed as a hue.
 
@@ -15,7 +15,3 @@ Simulation of the [classical XY model](https://en.wikipedia.org/wiki/Classical_X
 - <kbd>I</kbd>/<kbd>K</kbd> Raise / lower temperature (thermal mode)
 - <kbd>T</kbd>/<kbd>G</kbd> Double / halve time step (deterministic mode)
 - <kbd>X</kbd>/<kbd>Z</kbd> Adjust choice of gauge
-
-[screenshot1]: https://github.com/akuczala/processing-sketches/xymodel/xy-screenshot.png "screenshot"
-
-[screenshot2]: https://github.com/akuczala/processing-sketches/xymodel/vortex-screenshot.png "screenshot"

@@ -1,6 +1,6 @@
 # drawNetwork
 
-![alt text](screenshot)
+<img src="https://raw.githubusercontent.com/akuczala/processing-sketches/master/drawNetwork/network-screenshot.png" width="400">
 
 GUI tool for constructing and viewing tensor networks. Used for constructing (1+1) dimensional networks in the [MERA repo](www.github.com/akuczala/MERA/MERA-1D).
 
@@ -26,5 +26,3 @@ GUI tool for constructing and viewing tensor networks. Used for constructing (1+
 		- line 1: tensor names: `{<t1>,<t2>,<t3>...}`
 		- line 2: list of links, i.e: `{[1,2,3],[4,5,6]}`
 		- line 3: tensor positions: `100,200:300,400`
-
-[screenshot]: https://github.com/akuczala/processing-sketches/drawNetwork/network-screenshot.png "screenshot"
