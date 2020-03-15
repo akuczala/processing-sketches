@@ -1,3 +1,4 @@
+import csv
 #initialize window and gui elements
 def setup():
     global h1, h2
@@ -77,26 +78,27 @@ def submit_answer():
     global n_trial
     n_trial += 1
 
-#save results to text file
-def print_results():
-    global actual_hues_list, selected_hues_list
-    output = createWriter("colorspace-results.txt"); 
-    output.println('actual hues')
-    output.println(list(map(lambda h: h[0],actual_hues_list)))
-    output.println(list(map(lambda h: h[1],actual_hues_list)))
-    output.println('selected hues')
-    output.println(list(map(lambda h: h[0],selected_hues_list)))
-    output.println(list(map(lambda h: h[1],selected_hues_list)))
-    output.flush()
-    output.close()
-    #print(actual_hues_list)
-    #print(selected_hues_list)
+#save results to csv file
+def save_results(selection, dec = 3):
+    formatter = lambda v: ("{0:1." + str(dec) +"f}").format(v)
+    fileName = selection.getAbsolutePath();
+    with open(fileName,'w') as file:
+        writer = csv.writer(file)
+        def write_hue_list(ls,i, name):
+            ls_str = list(map(formatter,map(lambda h: h[i],ls)))
+            writer.writerow([name] + ls_str)
+        write_hue_list(actual_hues_list[:-1],0,"actual0  ") #the most recent hue has no selection
+        write_hue_list(actual_hues_list[:-1],1,"actual1  ")
+        write_hue_list(selected_hues_list,0,"selected0")
+        write_hue_list(selected_hues_list,1,"selected1")
+        print("saved to " + fileName)
+
 def keyPressed():
     if key == ' ':
         submit_answer()
     #print lists
-    if key == 'p':
-        print_results()
+    if key == 's':
+        selectOutput("Save data as", "save_results");
 #interpolates between hues h1 and h2,
 #where t is in the unit interval
 #returns point in unit disk, with the hue as the angle, and the saturation as the radius
