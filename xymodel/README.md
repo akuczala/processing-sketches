@@ -16,6 +16,6 @@ Simulation of the [classical XY model](https://en.wikipedia.org/wiki/Classical_X
 - <kbd>T</kbd>/<kbd>G</kbd> Double / halve time step (deterministic mode)
 - <kbd>X</kbd>/<kbd>Z</kbd> Adjust choice of gauge
 
-screenshot1: https://github.com/akuczala/processing-sketches/xymodel/xy-screenshot.png "screenshot"
+[screenshot1]: https://github.com/akuczala/processing-sketches/xymodel/xy-screenshot.png "screenshot"
 
-screenshot2: https://github.com/akuczala/processing-sketches/xymodel/vortex-screenshot.png "screenshot"
+[screenshot2]: https://github.com/akuczala/processing-sketches/xymodel/vortex-screenshot.png "screenshot"

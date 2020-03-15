@@ -10,4 +10,4 @@ Visualization of a worldline through 2+1 Minkowski space.
 - <kbd>A</kbd>/<kbd>D</kbd> Rotate
 - <kbd>Q</kbd>/<kbd>E</kbd> Boost forward/back
 
-screenshot: https://github.com/akuczala/processing-sketches/minkowski/minkowski-screenshot.png "screenshot"
+[screenshot]: https://github.com/akuczala/processing-sketches/minkowski/minkowski-screenshot.png "screenshot"

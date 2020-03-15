@@ -6,7 +6,7 @@ GUI tool for constructing and viewing tensor networks. Used for constructing (1+
 
 ##controls
 
--Add a tensor:
+- Add a tensor:
     - <kbd>w</kbd>: Isometry
     - <kbd>u</kbd>: Disentangler
     - <kbd>h</kbd>: On-site hamiltonian operator
@@ -27,4 +27,4 @@ GUI tool for constructing and viewing tensor networks. Used for constructing (1+
 		- line 2: list of links, i.e: `{[1,2,3],[4,5,6]}`
 		- line 3: tensor positions: `100,200:300,400`
 
-screenshot: https://github.com/akuczala/processing-sketches/drawNetwork/network-screenshot.png "screenshot"
+[screenshot]: https://github.com/akuczala/processing-sketches/drawNetwork/network-screenshot.png "screenshot"

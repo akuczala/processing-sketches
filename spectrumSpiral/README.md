@@ -17,4 +17,4 @@ Includes example audio files.
 
 Clicking the mouse anywhere between the left and right edges of the window will seek the audio file proportionally.
 
-screenshot: https://github.com/akuczala/processing-sketches/spectrumSpiral/spiral-screenshot.png "screenshot"
+[screenshot]: https://github.com/akuczala/processing-sketches/spectrumSpiral/spiral-screenshot.png "screenshot"
