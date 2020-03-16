@@ -12,6 +12,9 @@ Includes data from four participants. Independently of the results, we know the 
 
 The clearest result from this test was that colorblindness was strongly correlated with the amount of frustration expressed during the test.
 
+## Requirements
+- [Python mode for Processing](https://py.processing.org)
+
 ## Controls
 Drag the sliders to set the range of perceived hues.
 - <kbd>space</kbd> Submit answer for a given trial, and move to the next trial
