@@ -8,6 +8,9 @@ The visualization also includes a cumulative histogram of frequencies binned acc
 
 Includes example audio files.
 
+## Requirements
+- [Minim](https://github.com/ddf/Minim)
+
 ## Controls
 
 - <kbd>P</kbd> Toggle spiral / stacked octave view
